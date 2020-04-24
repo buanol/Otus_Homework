@@ -9,6 +9,7 @@
 
     <TextView
         android:id="@+id/textFilm1"
+        android:theme="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -47,6 +48,7 @@
 
     <TextView
         android:id="@+id/textFilm2"
+        android:theme="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -81,6 +83,7 @@
 
     <TextView
         android:id="@+id/textFilm3"
+        android:theme="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -118,15 +121,19 @@
         app:layout_constraintTop_toBottomOf="@+id/textFilm1"
         app:layout_constraintVertical_bias="0.48" />
 
-    <Button
+    <ImageButton
+        android:id="@+id/button_invite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/invite"
         android:onClick="inviteFriend"
+        android:src="@drawable/ic_share_black_24dp"
+        android:text="@string/invite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageFilm3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageFilm3"
+        app:layout_constraintVertical_bias="0.541" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

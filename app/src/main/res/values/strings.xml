@@ -1,13 +1,17 @@
 <resources>
-    <string name="app_name">Otus_Homework</string>
+    <string name="app_name">Список фильмов</string>
     <string name="details">Детали</string>
     <string name="invite">Пригласить друга</string>
     <string name="film1">Список Шиндлера</string>
     <string name="film2">Крёстный отец</string>
     <string name="film3">Тёмный рыцарь</string>
-    <string name="film1description">Лента рассказывает реальную историю загадочного Оскара Шиндлера, члена нацистской партии, преуспевающего фабриканта, спасшего во время Второй мировой войны более тысячи ста евреев.</string>
-    <string name="film2description">Криминальная сага, повествующая о нью-йоркской сицилийской мафиозной семье Корлеоне.</string>
-    <string name="film3description">Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.</string>
+    <string name="film1description" translatable="false">Лента рассказывает реальную историю загадочного Оскара Шиндлера, члена нацистской партии, преуспевающего фабриканта, спасшего во время Второй мировой войны более тысячи ста евреев.</string>
+    <string name="film2description" translatable="false">Криминальная сага, повествующая о нью-йоркской сицилийской мафиозной семье Корлеоне.</string>
+    <string name="film3description" translatable="false">Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.</string>
     <string name="commentFilm">Оставьте комментарий</string>
     <string name="likeFilm">Нравится</string>
+    <string name="exit">Выход</string>
+    <string name="yesDialog">Да</string>
+    <string name="noDialog">Нет</string>
+    <string name="exitMessage">Выходите из описания</string>
 </resources>

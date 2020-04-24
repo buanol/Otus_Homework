@@ -61,4 +61,5 @@ class MainActivity : AppCompatActivity() {
             3 -> this.textFilm3.setTextColor(Color.RED)
         }
     }
+
 }
