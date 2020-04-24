@@ -12,38 +12,34 @@
         android:theme="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/film1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toEndOf="@+id/imageFilm1"
-        app:layout_constraintTop_toTopOf="@+id/imageFilm1" />
+        app:layout_constraintEnd_toEndOf="@+id/imageFilm1"
+        app:layout_constraintStart_toStartOf="@+id/imageFilm1"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilm1" />
 
     <ImageView
         android:id="@+id/imageFilm2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/godfather_1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imageFilm1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button_film2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="film2click"
         android:text="@string/details"
-        app:layout_constraintBottom_toBottomOf="@+id/imageFilm2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageFilm2"
+        android:onClick="film2click"
+        app:layout_constraintEnd_toEndOf="@+id/imageFilm2"
+        app:layout_constraintStart_toStartOf="@+id/imageFilm2"
         app:layout_constraintTop_toBottomOf="@+id/textFilm2" />
 
     <TextView
@@ -51,21 +47,21 @@
         android:theme="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/film2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageFilm2"
-        app:layout_constraintTop_toTopOf="@+id/imageFilm2" />
+        app:layout_constraintEnd_toEndOf="@+id/imageFilm2"
+        app:layout_constraintStart_toStartOf="@+id/imageFilm2"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilm2" />
 
     <ImageView
         android:id="@+id/imageFilm1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/shindler_4"
-        app:layout_constraintBottom_toTopOf="@+id/imageFilm2"
+        app:layout_constraintEnd_toStartOf="@+id/imageFilm2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,56 +69,48 @@
         android:id="@+id/imageFilm3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="1dp"
         android:src="@drawable/darkknight_3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageFilm2"
-        app:layout_constraintVertical_bias="0.173" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageFilm1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageFilm2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textFilm3"
         android:theme="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/film3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageFilm3"
-        app:layout_constraintTop_toTopOf="@+id/imageFilm3" />
+        app:layout_constraintEnd_toEndOf="@+id/imageFilm3"
+        app:layout_constraintStart_toStartOf="@+id/imageFilm3"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilm3" />
 
     <Button
         android:id="@+id/button_film3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:onClick="film3click"
         android:text="@string/details"
-        app:layout_constraintBottom_toBottomOf="@+id/imageFilm3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageFilm3"
+        app:layout_constraintEnd_toEndOf="@+id/imageFilm3"
+        app:layout_constraintStart_toStartOf="@+id/imageFilm3"
         app:layout_constraintTop_toBottomOf="@+id/textFilm3" />
 
     <Button
         android:id="@+id/button_film1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="film1click"
         android:text="@string/details"
-        app:layout_constraintBottom_toBottomOf="@+id/imageFilm1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageFilm1"
-        app:layout_constraintTop_toBottomOf="@+id/textFilm1"
-        app:layout_constraintVertical_bias="0.48" />
+        android:onClick="film1click"
+        app:layout_constraintEnd_toEndOf="@+id/imageFilm1"
+        app:layout_constraintStart_toStartOf="@+id/imageFilm1"
+        app:layout_constraintTop_toBottomOf="@+id/textFilm1" />
 
     <ImageButton
-        android:id="@+id/button_invite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="inviteFriend"
@@ -130,10 +118,10 @@
         android:text="@string/invite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageFilm3"
-        app:layout_constraintVertical_bias="0.541" />
+        app:layout_constraintTop_toBottomOf="@+id/button_film2"
+        app:layout_constraintVertical_bias="0.849" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
